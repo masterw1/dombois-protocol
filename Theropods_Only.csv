@@ -1,0 +1,11 @@
+Unnamed: 0,Name_in_tree,Taxon,Clade,Subclade,Subclade_2,Max_age,Min_age,FL,FC,FML,FAP,HL,HC,HML,HAP,Juvenile,Bonebed,Femur,Humerus
+247,Albertosaurus,Albertosaurus_sarcophagus,Theropoda,Tyrannosauroidea,Tyrannosauroidea,Campanian,Maastrichtian,1020.0,350.0,,,305.0,,,,0,0,1020.0,305.0
+336,not,Daspletosaurus_torosus,Theropoda,Tyrannosauroidea,Tyrannosauroidea,Campanian,Campanian,655.0,226.0,,,225.0,,,,0,0,655.0,225.0
+344,not,Dilong_paradoxus,Theropoda,Tyrannosauroidea,Tyrannosauroidea,Late_Barremian,Early_Aptian,179.0,,,18.7,90.4,,10.3,,1,0,179.0,90.4
+351,Dryptosaurus,Dryptosaurus_aquilunguis,Theropoda,Tyrannosauroidea,Tyrannosauroidea,Late_Maastrichtian,Late_Maastrichtian,800.0,274.0,92.0,81.0,300.0,137.0,,,0,0,800.0,300.0
+395,Gorgosaurus,Gorgosaurus_libratus,Theropoda,Tyrannosauroidea,Tyrannosauroidea,Campanian,Campanian,1040.0,378.0,,,324.0,,,,0,0,1040.0,324.0
+400,not,Guanlong_wucaii,Theropoda,Tyrannosauroidea,Tyrannosauroidea,Oxfordian,Oxfordian,408.0,104.0,,,212.0,,,,0,0,408.0,212.0
+538,not,Raptorex_kriegsteini,Theropoda,Tyrannosauroidea,Tyrannosauroidea,,,338.0,87.0,24.7,28.2,99.0,,,,1,0,338.0,99.0
+596,not,Tarbosaurus_bataar,Theropoda,Tyrannosauroidea,Tyrannosauroidea,Campanian,Maastrichtian,1120.0,,,,285.0,,,,0,0,1120.0,285.0
+613,not,Tyrannosaurus_rex,Theropoda,Tyrannosauroidea,Tyrannosauroidea,Maastrichtian,Maastrichtian,1321.0,,185.0,142.0,385.0,,,,0,0,1321.0,385.0
+654,Teratophoneus,Teratophoneus_curriei,Theropoda,Tyrannosauroidea,Tyrannosauroidea,Late_Campanian,Late_Campanian,757.0,266.0,83.3,,242.0,,33.4,37.5,0,0,757.0,242.0
