@@ -69,9 +69,9 @@ Due to licensing, we cannot host the raw biological datasets directly. You must 
 
 | Dataset | Source | Action | Target Filename |
 | --- | --- | --- | --- |
-| **Humans** | [Goldman Osteometric Dataset](https://www.google.com/search?q=https://github.com/geanes/bioanth/blob/master/data-raw/Goldman.csv) | Download raw CSV | `Goldman_Humans.csv` |
-| **Birds** | [Skelevision (Weeks et al.)](https://www.google.com/search?q=https://deepblue.lib.umich.edu/data/concern/data_sets/8w32r5690) | Download `Complete_Trait...csv` | `Complete_Trait_Dataset_v1.csv` |
-| **Dinosaurs** | [Benson et al. (Dryad)](https://datadryad.org/stash/dataset/doi:10.5061/dryad.gr1qp) | Download & extract ZIP. Find the main data txt/xls. | `Data.txt` |
+| **Humans** | [Goldman Osteometric Dataset] ( https://web.utk.edu/~auerbach/GOLD.htm ) | Download raw CSV | rename it as `Goldman_Humans.csv` |
+| **Birds** | [Skelevision (Weeks et al.)] ( https://datadryad.org/dataset/doi:10.5061/dryad.v41ns1s4c ) | Download `Complete_Trait...csv` | `Complete_Trait_Dataset_v1.csv` |
+| **Dinosaurs** | [Benson et al. (Dryad)] ( https://datadryad.org/dataset/doi:10.5061/dryad.gr1qp ) | Download & extract ZIP. Find the main data txt/xls. | `Data.txt` |
 
 *Note: The `Data.txt` for dinosaurs must be the Tab-Separated Value file provided by Benson et al. The script automatically handles the filtering for Theropods.*
 
