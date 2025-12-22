@@ -21,6 +21,22 @@ This repository contains the **Python algorithms** used to validate this theory 
 
 ---
 
+## 🎛️ The Dombois Resonance Tuner (Standalone App)
+
+For researchers and enthusiasts who wish to experiment with the protocol without writing code, we provide a **standalone executable (.exe)** for Windows.
+
+**Download:** Go to the **[Releases]** section of this repository to download `dombois_terminal_v6.exe`.
+
+### How it works:
+The **Dombois Resonance Tuner** is a live physics engine that simulates the morphogenetic field in real-time.
+1.  **Select Scale:** Switch between **MACRO** (Bones/Organs in Hz) and **MICRO** (Cells/Cytoskeleton in MHz).
+2.  **Set Target:** Input a biological length (e.g., 45.0 cm femur or 20.0 µm cell).
+3.  **Auto-Tune / Fire:** Use the **Live Slider** to adjust the frequency. The simulation calculates the standing wave pattern in real-time.
+    * **Green Lock:** The frequency matches the harmonic geometry of the target length (Resonance).
+    * **Red/Chaos:** The frequency is dissonant; the particles (simulating cells) will not settle into a stable form.
+
+---
+
 ## 📐 The Theoretical Framework
 
 Morphogenesis is a function of material physics. The position of a structural element $L$ (bone, vein, nerve) is determined by the wavelength of a standing wave, which is dependent on the tissue's stiffness and density.
@@ -38,6 +54,44 @@ This implies organisms are not "printed" instruction-by-instruction, but "vibrat
 
 ---
 
+## ❓ FAQ & Theoretical Constraints
+
+### 1. The Noise Paradox: Why doesn't loud music deform embryos?
+**Question:** If biological form is driven by acoustic resonance, why don't external sounds (e.g., construction noise) cause morphological defects in the fetus?
+
+**Answer:** The Dombois Protocol relies on **frequency decoupling** and **impedance mismatch**.
+* **Frequency Isolation:** Morphogenesis occurs in protected frequency bands. While macroscopic organ placement happens in the low Hertz range (1−100 Hz), cellular actuation relies on high-frequency signals (MHz/THz). Environmental noise (20−20,000 Hz) lacks the coherent energy density to disrupt these internal standing waves.
+* **The Water Barrier (Impedance):** Biological tissue is 70-90% water. When airborne sound waves hit a fluid/solid body, >99.9% of the energy is reflected due to the massive impedance jump. The womb acts as a perfect acoustic shield against chaotic external noise.
+
+### 2. The Scaling Problem: How does a tiny cell "know" the length of a bone?
+**Question:** A cell is ∼10μm small. How can it sense a standing wave that is 40cm long (e.g., a femur)?
+
+**Answer:** The cell does not need to "measure" the wave. It acts as a **passive particle within a pressure gradient field**.
+Just as a grain of sand on a Chladni plate does not need to know the size of the plate to find the nodal line, a cell simply migrates along the path of least resistance (minimum pressure) defined by the global standing wave. The "Macro-Wave" organizes the tissue; the cell simply occupies the available low-energy state (node).
+
+### 3. The Role of Genetics: Are genes irrelevant?
+**Question:** Does this theory replace genetics?
+
+**Answer:** No. It completes it.
+* **Genetics** code for the **Material Properties** ($E$ = Stiffness, $\rho$ = Density).
+* **Physics** codes for the **Spatial Distribution** (Geometry).
+
+**Analogy:** DNA is the factory that produces the bricks (Proteins). The Dombois Resonance is the architect that tells the bricks where to stack. If you change the DNA (e.g., softer bones), you change the variable $E$, which shifts the resonance frequency, resulting in a different form. Form and Material are coupled.
+
+### 4. Temperature Dependency (The Reptile Proof)
+**Question:** The speed of sound $v$ changes with temperature. Does this affect growth?
+
+**Answer:** Yes, and this validates the model.
+In cold-blooded animals (e.g., reptiles), sex determination and morphology are often temperature-dependent. Since $v \propto \sqrt{T}$, a change in incubation temperature shifts the harmonic nodal lines. In mammals (warm-blooded), the body maintains a constant temperature (≈37°C) precisely to ensure a stable speed of sound for precise morphological replication.
+
+### 5. The Micro-Scale Hypothesis (Cellular Resonance)
+**Hypothesis:** Can this model be applied to organelles and the cytoskeleton?
+**Status:** Experimental.
+
+Our simulation includes a MICRO mode that predicts resonance frequencies for cellular structures (e.g., Microtubules) in the MHz/THz range, aligning with Fröhlich Resonance Theory. We propose that **"Acoustic Osteogenesis"** (bone healing via ultrasound) works because it artificially re-supplies the lost morphogenetic standing wave to the wound site, "reminding" the cells of the target geometry.
+
+---
+
 ## 📊 Key Findings (The Evidence)
 
 ### 1. The Macro-Scale Proof (Bones & Evolution)
@@ -51,8 +105,6 @@ This implies organisms are not "printed" instruction-by-instruction, but "vibrat
 
 * **Zebrafish (1D):** Lateral line neuromasts appear at normalized body lengths of 0.20, 0.38, 0.57, 0.75, and 0.92. Our simulation of a 5.4 Hz standing wave generates nodes at exactly these coordinates with >99.8% correlation.
 * **Drosophila (2D):** Wing veins L2-L5 align perfectly with the nodal lines (dark zones) of a fixed-hinge membrane vibrating in a polar coordinate system.
-* **C. elegans (3D):** Modeled as a cylindrical resonance chamber (Mode n=4). The vibration forces matter into four distinct muscle lobes, leaving nodal gaps at 0°, 90°, 180°, and 270°—precisely where the nerve cords are located.
-
 
 ---
 
@@ -62,7 +114,7 @@ This implies organisms are not "printed" instruction-by-instruction, but "vibrat
 * `zebrafish_morph.py` - 1D wave simulation vs. ZFIN biological data.
 * `drosophila_morph.py` - 2D Chladni simulation vs. FlyBase venation data.
 * `skin_matrix.py` - *Experimental.* Simulates 3D surface tessellation (Scales/Scutes).
-* `healing_dombois_protocol.py` - Theoretical model for "Acoustic Osteogenesis" (Regenerative Medicine application).
+* `healing_dombois_protocol.py` - Theoretical model for "Acoustic Osteogenesis".
 * `planetary_morph.py` - Exobiological simulator predicting morphology under different gravity constants.
 * `/data` - Folder for biological datasets (see setup below).
 
@@ -144,3 +196,7 @@ Built with:
 * Python 3.11
 * Matplotlib & Numpy (Scientific Computing)
 * PyInstaller (Executable Build)
+
+```
+
+```
