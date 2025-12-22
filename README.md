@@ -1,5 +1,3 @@
-
-```markdown
 # THE DOMBOIS PROTOCOL
 
 ### Quantized Morphogenesis: Decoding the Harmonic Geometry of Biological Growth
