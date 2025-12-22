@@ -1,3 +1,4 @@
+
 # THE DOMBOIS PROTOCOL
 
 ### Quantized Morphogenesis: Decoding the Harmonic Geometry of Biological Growth
@@ -18,12 +19,11 @@ This repository contains the **Python algorithms** used to validate this theory 
 
 > **"Form follows Frequency."**
 
-
 ---
 
 ## 📐 The Theoretical Framework
 
-Morphogenesis is a function of material physics. [cite_start]The position of a structural element $L$ (bone, vein, nerve) is determined by the wavelength of a standing wave, which is dependent on the tissue's stiffness and density[cite: 18].
+Morphogenesis is a function of material physics. The position of a structural element $L$ (bone, vein, nerve) is determined by the wavelength of a standing wave, which is dependent on the tissue's stiffness and density.
 
 ### The Dombois Resonance Equation:
 
@@ -33,7 +33,6 @@ $$L = \frac{1}{2f} \sqrt{\frac{E}{\rho}}$$
 * $f$: The fundamental frequency (biological driver).
 * $E$: Young's Modulus (tissue stiffness).
 * $\rho$: Tissue density.
-
 
 This implies organisms are not "printed" instruction-by-instruction, but "vibrated" into shape.
 
@@ -50,10 +49,9 @@ This implies organisms are not "printed" instruction-by-instruction, but "vibrat
 ### 2. The Micro-Scale Proof (Organs & Veins)
 *Analysis via `zebrafish_morph.py` and `drosophila_morph.py`*
 
-* [cite_start]**Zebrafish (1D):** Lateral line neuromasts appear at normalized body lengths of 0.20, 0.38, 0.57, 0.75, and 0.92[cite: 25]. [cite_start]Our simulation of a 5.4 Hz standing wave generates nodes at exactly these coordinates with >99.8% correlation[cite: 26, 27].
-* [cite_start]**Drosophila (2D):** Wing veins L2-L5 align perfectly with the nodal lines (dark zones) of a fixed-hinge membrane vibrating in a polar coordinate system[cite: 33].
-* **C. elegans (3D):** Modeled as a cylindrical resonance chamber (Mode n=4). [cite_start]The vibration forces matter into four distinct muscle lobes, leaving nodal gaps at 0°, 90°, 180°, and 270°—precisely where the nerve cords are located[cite: 39].
-
+* **Zebrafish (1D):** Lateral line neuromasts appear at normalized body lengths of 0.20, 0.38, 0.57, 0.75, and 0.92. Our simulation of a 5.4 Hz standing wave generates nodes at exactly these coordinates with >99.8% correlation.
+* **Drosophila (2D):** Wing veins L2-L5 align perfectly with the nodal lines (dark zones) of a fixed-hinge membrane vibrating in a polar coordinate system.
+* **C. elegans (3D):** Modeled as a cylindrical resonance chamber (Mode n=4). The vibration forces matter into four distinct muscle lobes, leaving nodal gaps at 0°, 90°, 180°, and 270°—precisely where the nerve cords are located.
 
 ### 3. Surface Topology & Environmental Resonance (Skin & Eggs)
 *New in v2.2 - Analysis via `skin_matrix.py` (Beta)*
@@ -73,7 +71,7 @@ This implies organisms are not "printed" instruction-by-instruction, but "vibrat
 * `zebrafish_morph.py` - 1D wave simulation vs. ZFIN biological data.
 * `drosophila_morph.py` - 2D Chladni simulation vs. FlyBase venation data.
 * `skin_matrix.py` - *Experimental.* Simulates 3D surface tessellation (Scales/Scutes).
-* [cite_start]`healing_dombois_protocol.py` - Theoretical model for "Acoustic Osteogenesis"[cite: 53].
+* `healing_dombois_protocol.py` - Theoretical model for "Acoustic Osteogenesis" (Regenerative Medicine application).
 * `planetary_morph.py` - Exobiological simulator predicting morphology under different gravity constants.
 * `/data` - Folder for biological datasets (see setup below).
 
@@ -124,14 +122,8 @@ python mass_validator.py
 
 Understanding the harmonic baseline of healthy morphology opens new avenues for medicine:
 
-* 
-**Oncology (Dissonance Detection):** Tumors exhibit altered tissue stiffness (), leading to a local frequency shift detectable via resonance scanning.
-
-
-* 
-**Regenerative Medicine:** Applying "morphogenetic frequencies" externally to guide stem cell differentiation.
-
-
+* **Oncology (Dissonance Detection):** Tumors exhibit altered tissue stiffness (), leading to a local frequency shift detectable via resonance scanning.
+* **Regenerative Medicine:** Applying "morphogenetic frequencies" externally to guide stem cell differentiation.
 
 ---
 
@@ -143,7 +135,7 @@ Lise-Meitner-Str. 8
 31303 Hannover-Burgdorf, Germany
 Email: info@attic-burgdorf.de
 
-This repository and the associated White Paper are timestamped on the Blockchain for Proof of Existence (December 21, 2025).
+*This repository and the associated White Paper are timestamped on the Blockchain for Proof of Existence (December 21, 2025).*
 
 ---
 
@@ -161,7 +153,3 @@ Built with:
 * Python 3.11
 * Matplotlib & Numpy (Scientific Computing)
 * PyInstaller (Executable Build)
-
-```
-
-```
