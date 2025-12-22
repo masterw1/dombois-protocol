@@ -1,41 +1,70 @@
 
-
+```markdown
 # THE DOMBOIS PROTOCOL
 
 ### Quantized Morphogenesis: Decoding the Harmonic Geometry of Biological Growth
 
-**Version:** 2.1
-
+**Version:** 2.2 (Expanded Topology)
 **Status:** Proof of Concept / Validation Phase
-
 **License:** Copyright © 2025 Dombois Research Group. All Rights Reserved.
 
 ---
 
 ## 🧬 Abstract
 
-The **Dombois Protocol** postulates that biological form is not merely a product of genetic signaling, but the material consequence of **standing acoustic and mechanical wave fields**. By applying Chladni plate physics to biological tissue, this repository provides the mathematical and computational proof that anatomical features—from the limb ratios of *Tyrannosaurus rex* to the wing venation of *Drosophila*—align with discrete harmonic nodal lines.
+[cite_start]The **Dombois Protocol** challenges the current consensus that biological form is driven solely by genetic signaling cascades (e.g., Turing mechanisms)[cite: 5]. [cite_start]Instead, we propose that biological form is the material consequence of **standing acoustic and mechanical wave fields**[cite: 7].
 
-This repository contains the **Python algorithms** used to validate this theory against massive biological datasets, proving that evolution is quantized, not random.
+[cite_start]By applying Chladni plate physics to biological tissue, we demonstrate that anatomical features—from the spacing of sensory organs in *Danio rerio* to the wing venation of *Drosophila*—align with harmonic nodal lines[cite: 8].
+
+[cite_start]This repository contains the **Python algorithms** used to validate this theory against massive biological datasets, proving that the "blueprint" of life is not just genetic, but acoustic[cite: 9].
+
+> [cite_start]**"Form follows Frequency."** [cite: 16]
+
+
+---
+
+## 📐 The Theoretical Framework
+
+Morphogenesis is a function of material physics. [cite_start]The position of a structural element $L$ (bone, vein, nerve) is determined by the wavelength of a standing wave, which is dependent on the tissue's stiffness and density[cite: 18].
+
+### The Dombois Resonance Equation:
+
+$$L = \frac{1}{2f} \sqrt{\frac{E}{\rho}}$$
+
+**Where:**
+* $f$: The fundamental frequency (biological driver).
+* $E$: Young's Modulus (tissue stiffness).
+* $\rho$: Tissue density.
+
+[cite_start]This implies organisms are not "printed" instruction-by-instruction, but "vibrated" into shape[cite: 19].
 
 ---
 
 ## 📊 Key Findings (The Evidence)
 
-Running the `mass_validator.py` script on the datasets provided below yields statistically significant correlations between biological anatomy and harmonic attractors:
+### 1. The Macro-Scale Proof (Bones & Evolution)
+*Analysis via `mass_validator.py`*
 
-### 1. The Macro-Scale Proof (Humans, Birds, Dinosaurs)
+* **Humans (The Precision Needle):** Limb ratios cluster around harmonic intervals (approx. Ratio 0.70) with near-zero variance.
+* **Theropods (The Evolutionary Phase Shift):** Ancestral forms cluster at **0.5** (Octave), while derived giants (T-Rex) shift sharply to **0.30**, suggesting evolution occurs in quantized acoustic jumps rather than gradual drift.
 
-Our cross-species analysis reveals that limb proportions (Humerus/Femur) cluster around specific harmonic intervals:
+### 2. The Micro-Scale Proof (Organs & Veins)
+*Analysis via `zebrafish_morph.py` and `drosophila_morph.py`*
 
-* **Humans (The Precision Needle):** Extremely high density peak at **Ratio 0.70** (approx.  or perfect Fifth). Variance is near zero.
-* **Birds (The Aero Shift):** Distinct cluster at **Ratio 1.1** (approx. Major Second ), optimizing for aerodynamics.
-* **Theropods (The Evolutionary Jump):** A bimodal distribution. Ancestral forms cluster at **0.5** (Octave), while derived giants (T-Rex) shift sharply to **0.30** (Duodezime), proving a quantized "phase shift" in morphology rather than gradual drift.
+* [cite_start]**Zebrafish (1D):** Lateral line neuromasts appear at normalized body lengths of 0.20, 0.38, 0.57, 0.75, and 0.92[cite: 25]. [cite_start]Our simulation of a 5.4 Hz standing wave generates nodes at exactly these coordinates with >99.8% correlation[cite: 26, 27].
+* [cite_start]**Drosophila (2D):** Wing veins L2-L5 align perfectly with the nodal lines (dark zones) of a fixed-hinge membrane vibrating in a polar coordinate system[cite: 33].
+* **C. elegans (3D):** Modeled as a cylindrical resonance chamber (Mode n=4). [cite_start]The vibration forces matter into four distinct muscle lobes, leaving nodal gaps at 0°, 90°, 180°, and 270°—precisely where the nerve cords are located[cite: 39].
 
-### 2. The Micro-Scale Proof (Zebrafish & Drosophila)
 
-* **Zebrafish:** Lateral line organ placement correlates >99.8% with the nodes of a 5.4 Hz standing wave.
-* **Drosophila:** Wing veins L2-L5 align perfectly with the nodal lines (zero-vibration zones) of a fixed-hinge membrane simulation.
+### 3. Surface Topology & Environmental Resonance (Skin & Eggs)
+*New in v2.2 - Analysis via `skin_matrix.py` (Beta)*
+
+* **Crocodilian Skin (Tessellation):** Unlike mammalian skin, crocodile scales do not overlap. The Dombois Protocol models these scutes not as genetic patterning, but as **fracture mechanics derived from standing waves** on a drying, viscoelastic surface. The pattern is a Voronoi diagram generated by acoustic antinodes.
+* **The Egg & Temperature-Dependent Sex Determination:**
+    * Why does temperature determine sex in crocodiles?
+    * **The Protocol:** Temperature alters the **Young's Modulus ($E$)** (stiffness) of the egg membrane and fluid.
+    * According to the equation $L = \frac{1}{2f} \sqrt{\frac{E}{\rho}}$, a change in $E$ results in a shift in the resonant frequency $f$.
+    * **Conclusion:** The embryo develops male or female gonads because the *frequency of the environment* shifts the morphogenetic nodes to different anatomical locations.
 
 ---
 
@@ -44,7 +73,8 @@ Our cross-species analysis reveals that limb proportions (Humerus/Femur) cluster
 * `mass_validator.py` - The core engine. Reads CSV data, filters taxa, and calculates harmonic density plots.
 * `zebrafish_morph.py` - 1D wave simulation vs. ZFIN biological data.
 * `drosophila_morph.py` - 2D Chladni simulation vs. FlyBase venation data.
-* `healing_dombois_protocol.py` - Theoretical model for "Acoustic Osteogenesis" (Regenerative Medicine application).
+* `skin_matrix.py` - *Experimental.* Simulates 3D surface tessellation (Scales/Scutes).
+* [cite_start]`healing_dombois_protocol.py` - Theoretical model for "Acoustic Osteogenesis"[cite: 53].
 * `planetary_morph.py` - Exobiological simulator predicting morphology under different gravity constants.
 * `/data` - Folder for biological datasets (see setup below).
 
@@ -61,39 +91,31 @@ pip install pandas numpy matplotlib seaborn scipy openpyxl
 
 ```
 
-### 2. Data Acquisition (CRITICAL)
+### 2. Data Acquisition (CRITICAL WARNING)
 
-Due to licensing, we cannot host the raw biological datasets directly. You must download them from their official scientific repositories and place them in a folder named `/data`.
+Due to licensing, we cannot host the raw biological datasets directly. You must download them from their official scientific repositories.
 
-**IMPORTANT:** You must rename the files exactly as listed below for the scripts to work.
+**⚠️ DINOSAUR DATA WARNING:**
+Reproducing the Theropod analysis is the most challenging part of this repository. The Benson et al. dataset is massive and contains distinct morphological errors in the raw text files. You must manually clean the Tab-Separated Value file to remove non-Theropod entries if the script's auto-filter fails. **Patience is required.**
 
 | Dataset | Source | Action | Target Filename |
 | --- | --- | --- | --- |
-| **Humans** | [Goldman Osteometric Dataset] ( https://web.utk.edu/~auerbach/GOLD.htm ) | Download raw CSV | rename it as `Goldman_Humans.csv` |
-| **Birds** | [Skelevision (Weeks et al.)] ( https://datadryad.org/dataset/doi:10.5061/dryad.v41ns1s4c ) | Download `Complete_Trait...csv` | `Complete_Trait_Dataset_v1.csv` |
-| **Dinosaurs** | [Benson et al. (Dryad)] ( https://datadryad.org/dataset/doi:10.5061/dryad.gr1qp ) | Download & extract ZIP. Find the main data txt/xls. | `Data.txt` |
-
-*Note: The `Data.txt` for dinosaurs must be the Tab-Separated Value file provided by Benson et al. The script automatically handles the filtering for Theropods.*
+| **Humans** | [Goldman Osteometric Dataset](https://web.utk.edu/~auerbach/GOLD.htm) | Download raw CSV | `Goldman_Humans.csv` |
+| **Birds** | [Skelevision (Weeks et al.)](https://datadryad.org/dataset/doi:10.5061/dryad.v41ns1s4c) | Download `Complete_Trait...csv` | `Complete_Trait_Dataset_v1.csv` |
+| **Dinosaurs** | [Benson et al. (Dryad)](https://datadryad.org/dataset/doi:10.5061/dryad.gr1qp) | Download ZIP -> Extract -> Find main Data.txt | `Data.txt` |
 
 ### 3. Running the Validation
 
-To reproduce the "Golden Figures" (the charts used in the White Paper):
-
 ```bash
-# 1. Run the Zebrafish and Worm Simulation and you will get two figures from the whitepaper.
+# 1. Run the Zebrafish and Worm Simulation
 python zebrafish_morph.py
 
-# 2. Run the Wing Simulation and you get one figure from the whitepaper.
+# 2. Run the Wing Simulation
 python drosophila_morph.py
 
-# 3. Run the Planetary Morph Simulator (Exobiology)
-python planetary_morph.py
-
-# 4. Run the Mass Validator (The main proof) for a calculated comparison of bones by the algorithm for humans, birds and theropods. For this you need the correct datasets in /data!
+# 3. Run the Mass Validator (Requires downloaded /data!)
 python mass_validator.py
 # Output: 'Harmonic_Proof_Robust.png' showing the density peaks.
-
-# Feel free to calculate it against any dataset that you can find.
 
 ```
 
@@ -101,41 +123,46 @@ python mass_validator.py
 
 ## 🔮 Future Implications
 
-The code includes a module `healing_sim.py` which applies the inverse logic: Instead of analyzing existing forms, it calculates the **corrective frequency** needed to guide cells back to their harmonic baseline. This has potential applications in:
+Understanding the harmonic baseline of healthy morphology opens new avenues for medicine:
 
-* **Oncology:** Detecting tumors via stiffness-frequency dissonance.
-* **Regenerative Medicine:** Inducing specific tissue growth via resonance fields.
-* **Climate Science:** Optimizing tree growth (carbon capture) via laminar flow resonance.
+* 
+**Oncology (Dissonance Detection):** Tumors exhibit altered tissue stiffness (), leading to a local frequency shift detectable via resonance scanning.
+
+
+* 
+**Regenerative Medicine:** Applying "morphogenetic frequencies" externally to guide stem cell differentiation.
+
+
 
 ---
 
 ## 📞 Contact & Citation
 
-**Til von Dombois Research Group** c/o Attic Studios
-
+**Til von Dombois Research Group**
+c/o Attic Studios
 Lise-Meitner-Str. 8
-
 31303 Hannover-Burgdorf, Germany
-
 Email: info@attic-burgdorf.de
 
-*This repository and the associated White Paper are timestamped on the Blockchain for Proof of Existence (December 21, 2025).*
+This repository and the associated White Paper are timestamped on the Blockchain for Proof of Existence (December 21, 2025).
 
+---
 
+## ⚠️ SCIENTIFIC DISCLAIMER
 
+**This software is a theoretical simulation tool intended for research and visualization purposes only.** It demonstrates the Dombois Protocol of Quantized Morphogenesis.
 
-
-
-
-## ⚠️ SCIENTIFIC DISCLAIMER 
-
-This software is a theoretical simulation tool intended for research and visualization purposes only. It demonstrates the Dombois Protocol of Quantized Morphogenesis.
-Not for Medical Use: This software is NOT a medical device. It does not provide medical diagnoses or treatment recommendations.
-Experimental Status: The correlation between acoustic resonance frequencies and biological growth is a hypothesis currently under investigation.
-
+* **Not for Medical Use:** This software is NOT a medical device. It does not provide medical diagnoses or treatment recommendations.
+* **Experimental Status:** The correlation between acoustic resonance frequencies and biological growth is a hypothesis currently under investigation.
 
 ## Credits/Technology
+
 Built with:
-    Python 3.11
-    Matplotlib & Numpy (Scientific Computing)
-    PyInstaller (Executable Build)
+
+* Python 3.11
+* Matplotlib & Numpy (Scientific Computing)
+* PyInstaller (Executable Build)
+
+```
+
+```
