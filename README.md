@@ -10,7 +10,7 @@
 
 ## 🧬 Abstract
 
-[cite_start]The **Dombois Protocol** challenges the current consensus that biological form is driven solely by genetic signaling cascades (e.g., Turing mechanisms)[cite: 5]. [cite_start]Instead, we propose that biological form is the material consequence of **standing acoustic and mechanical wave fields**[cite: 7].
+[cite_start] The **Dombois Protocol** challenges the current consensus that biological form is driven solely by genetic signaling cascades (e.g., Turing mechanisms)[cite: 5]. [cite_start]Instead, we propose that biological form is the material consequence of **standing acoustic and mechanical wave fields** [cite: 7].
 
 [cite_start]By applying Chladni plate physics to biological tissue, we demonstrate that anatomical features—from the spacing of sensory organs in *Danio rerio* to the wing venation of *Drosophila*—align with harmonic nodal lines[cite: 8]. 
 
