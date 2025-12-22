@@ -34,7 +34,8 @@ $$L = \frac{1}{2f} \sqrt{\frac{E}{\rho}}$$
 * $E$: Young's Modulus (tissue stiffness).
 * $\rho$: Tissue density.
 
-[cite_start]This implies organisms are not "printed" instruction-by-instruction, but "vibrated" into shape[cite: 19].
+
+This implies organisms are not "printed" instruction-by-instruction, but "vibrated" into shape.
 
 ---
 
