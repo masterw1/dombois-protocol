@@ -59,14 +59,14 @@ This implies organisms are not "printed" instruction-by-instruction, but "vibrat
 ### 1. The Noise Paradox: Why doesn't loud music deform embryos?
 **Question:** If biological form is driven by acoustic resonance, why don't external sounds (e.g., construction noise) cause morphological defects in the fetus?
 
-**Answer:** The Dombois Protocol relies on **frequency decoupling** and **impedance mismatch**.
+**Possible answer:** The Dombois Protocol relies on **frequency decoupling** and **impedance mismatch**.
 * **Frequency Isolation:** Morphogenesis occurs in protected frequency bands. While macroscopic organ placement happens in the low Hertz range (1−100 Hz), cellular actuation relies on high-frequency signals (MHz/THz). Environmental noise (20−20,000 Hz) lacks the coherent energy density to disrupt these internal standing waves.
 * **The Water Barrier (Impedance):** Biological tissue is 70-90% water. When airborne sound waves hit a fluid/solid body, >99.9% of the energy is reflected due to the massive impedance jump. The womb acts as a perfect acoustic shield against chaotic external noise.
 
 ### 2. The Scaling Problem: How does a tiny cell "know" the length of a bone?
 **Question:** A cell is ∼10μm small. How can it sense a standing wave that is 40cm long (e.g., a femur)?
 
-**Answer:** The cell does not need to "measure" the wave. It acts as a **passive particle within a pressure gradient field**.
+**Possible answer:** The cell does not need to "measure" the wave. It acts as a **passive particle within a pressure gradient field**.
 Just as a grain of sand on a Chladni plate does not need to know the size of the plate to find the nodal line, a cell simply migrates along the path of least resistance (minimum pressure) defined by the global standing wave. The "Macro-Wave" organizes the tissue; the cell simply occupies the available low-energy state (node).
 
 ### 3. The Role of Genetics: Are genes irrelevant?
@@ -81,7 +81,7 @@ Just as a grain of sand on a Chladni plate does not need to know the size of the
 ### 4. Temperature Dependency (The Reptile Proof)
 **Question:** The speed of sound $v$ changes with temperature. Does this affect growth?
 
-**Answer:** Yes, and this validates the model.
+**Possible answer:** Yes, and this validates the model.
 In cold-blooded animals (e.g., reptiles), sex determination and morphology are often temperature-dependent. Since $v \propto \sqrt{T}$, a change in incubation temperature shifts the harmonic nodal lines. In mammals (warm-blooded), the body maintains a constant temperature (≈37°C) precisely to ensure a stable speed of sound for precise morphological replication.
 
 ### 5. The Micro-Scale Hypothesis (Cellular Resonance)
