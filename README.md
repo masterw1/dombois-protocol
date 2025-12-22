@@ -132,3 +132,10 @@ Email: info@attic-burgdorf.de
     Not for Medical Use: This software is NOT a medical device. It does not provide medical diagnoses or treatment recommendations.
 
     Experimental Status: The correlation between acoustic resonance frequencies and biological growth is a hypothesis currently under investigation.
+
+
+## Credits/Technology
+Built with:
+    Python 3.11
+    Matplotlib & Numpy (Scientific Computing)
+    PyInstaller (Executable Build)
