@@ -120,3 +120,15 @@ Lise-Meitner-Str. 8
 Email: info@attic-burgdorf.de
 
 *This repository and the associated White Paper are timestamped on the Blockchain for Proof of Existence (December 21, 2025).*
+
+
+
+
+
+
+
+## ⚠️ SCIENTIFIC DISCLAIMER This software is a theoretical simulation tool intended for research and visualization purposes only. It demonstrates the Dombois Protocol of Quantized Morphogenesis.
+
+    Not for Medical Use: This software is NOT a medical device. It does not provide medical diagnoses or treatment recommendations.
+
+    Experimental Status: The correlation between acoustic resonance frequencies and biological growth is a hypothesis currently under investigation.
