@@ -116,7 +116,9 @@ Our simulation includes a MICRO mode that predicts resonance frequencies for cel
 * `skin_matrix.py` - *Experimental.* Simulates 3D surface tessellation (Scales/Scutes).
 * `healing_dombois_protocol.py` - Theoretical model for "Acoustic Osteogenesis".
 * `planetary_morph.py` - Exobiological simulator predicting morphology under different gravity constants.
-* `/data` - Folder for biological datasets (see setup below).
+* `dombois_terminal_vs6.py` - Source python code for the Release EXE (you find it under Release)
+* `requirements.txt` - Needed programs for dombois_terminal_vs6.py to run
+* * `/data` - Folder for the outcoming images/biological datasets of drosophila_morph.py / zebrafish_morph.py / mass_validator.py (see setup below).
 
 ---
 
